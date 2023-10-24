@@ -1,0 +1,16 @@
+.loader{
+    padding: 4rem 0;
+    animation: spin 1s ease infinite;
+    color: rgb(98, 34, 158);
+}
+@keyframes spin{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.loader img{
+    width: 120px;
+}
+
+
+
