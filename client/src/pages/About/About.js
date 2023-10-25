@@ -12,9 +12,9 @@ const About = () => {
         </div>
         <div className="about-content grid">
           <div className="about-img">
-            <img src={aboutImg} />
-            <img src={about3Img} />
-            <img src={about2Img} />
+            <img src={aboutImg} alt={aboutImg} />
+            <img src={about3Img} alt={aboutImg} />
+            <img src={about2Img} alt={aboutImg} />
 
           </div>
           {/* <div className="about-img1">
